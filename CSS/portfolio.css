@@ -1,0 +1,31 @@
+:root {
+  --card-hover-color: rgba(33, 150, 243, 0.9);
+}
+.title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.type {
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.card-hover {
+  color: var(--primary-white-color);
+  background-color: var(--card-hover-color);
+  font-size: 18px;
+  line-height: 1.56;
+}
+
+.filter-button {
+  color: var(--title-text-color);
+  font-family: inherit;
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
