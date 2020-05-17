@@ -22,7 +22,7 @@ body {
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 
 .list {
@@ -90,6 +90,7 @@ body {
 /* Footer */
 
 .footer {
+  margin-top: 94px;
   padding-top: 48px;
   padding-bottom: 21px;
 
@@ -141,6 +142,13 @@ body {
 }
 
 .copyright {
+  border-top-style: solid;
+  border-color: var(--copyright-text-color);
+  border-top-width: 1px;
+
+  margin: 0;
+  padding-top: 18px;
+
   color: var(--copyright-text-color);
   font-size: 12px;
   line-height: 2;

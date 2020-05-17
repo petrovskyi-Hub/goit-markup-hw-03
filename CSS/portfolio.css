@@ -1,7 +1,19 @@
 :root {
   --card-hover-color: rgba(33, 150, 243, 0.9);
 }
-.title {
+
+.filters {
+  margin-top: 93px;
+}
+
+.work-examples {
+  margin-top: 34px;
+}
+
+title {
+  margin-top: 20px;
+  margin-bottom: 0;
+
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -10,11 +22,24 @@
 }
 
 .type {
+  margin-top: 4px;
+  margin-bottom: 20px;
+
+  color: var(--primary-text-color);
+
   font-size: 16px;
   line-height: 1.87;
 }
 
+.card {
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
+
+  text-align: center;
+}
+
 .card-hover {
+  display: none;
   color: var(--primary-white-color);
   background-color: var(--card-hover-color);
   font-size: 18px;
@@ -28,4 +53,8 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+}
+
+.hiden {
+  display: none;
 }
