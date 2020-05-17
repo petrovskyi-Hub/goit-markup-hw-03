@@ -1,9 +1,16 @@
+:root {
+  --special-section-bg-color: #f5f4fa;
+}
+
 /* Hero */
 .hero {
   text-align: center;
 }
 
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 46px;
+
   color: var(--primary-white-color);
   background-color: turquoise;
   font-weight: 900;
@@ -16,16 +23,37 @@
 
 /* Button */
 .button {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
+
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+
   text-decoration: none;
+  text-align: center;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
 }
 
 /* Section */
+.section {
+  margin-top: 94px;
+  background-color: yellowgreen;
+}
+
+.section.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  background-color: var(--special-section-bg-color);
+}
+
 .section-title {
+  margin-top: 0;
+  margin-bottom: 50px;
+
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -34,6 +62,9 @@
 }
 
 .title {
+  margin-top: 0;
+  margin-bottom: 10px;
+
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -42,6 +73,9 @@
 }
 
 .text {
+  margin-top: 0;
+  margin-bottom: 0px;
+
   font-size: 14px;
   line-height: 1.71;
 }
@@ -58,6 +92,10 @@
 } */
 
 /* Team */
+
+.worker {
+  background-color: var(--primary-white-color);
+}
 
 .worker .worker-name {
   color: var(--title-text-color);
