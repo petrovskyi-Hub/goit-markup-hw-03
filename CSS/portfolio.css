@@ -92,6 +92,9 @@ title {
   margin-bottom: 0px;
 } */
 
+.card .title {
+  color: var(--title-text-color);
+}
 .card-hover {
   display: none;
   color: var(--primary-white-color);
