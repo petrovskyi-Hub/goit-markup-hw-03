@@ -24,12 +24,11 @@
 
 /* Section */
 .section {
-  margin-top: 94px;
+  padding-top: 94px;
   /* background-color: yellowgreen; */
 }
 
 .section.team {
-  padding-top: 94px;
   padding-bottom: 94px;
 
   background-color: var(--special-section-bg-color);
@@ -44,6 +43,10 @@
   font-size: 36px;
   line-height: 1.7;
   text-align: center;
+}
+
+.section.possibilities {
+  padding-bottom: 94px;
 }
 
 .title {
@@ -79,6 +82,11 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 55px;
+
+  padding: 25px 104px;
+  border: 1px solid transparent;
+  background-color: var(--special-section-bg-color);
+  border-radius: 4px;
 }
 
 .benefits li:not(:first-child) {
