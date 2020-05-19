@@ -41,8 +41,10 @@
   color: var(--primary-white-color);
 }
 
-.container.work-examples {
+.work-examples {
   margin-top: 34px;
+
+  /* outline: 2px solid tomato; */
 }
 
 .work-examples .list {
@@ -52,7 +54,7 @@
   margin: -15px;
 }
 
-title {
+.title {
   margin-top: 20px;
   margin-bottom: 0;
 
@@ -65,7 +67,7 @@ title {
 
 .type {
   margin-top: 4px;
-  margin-bottom: 20px;
+  margin-bottom: 0;
 
   color: var(--primary-text-color);
 
@@ -77,11 +79,11 @@ title {
   /* width: calc((100% - 2 * 30px) / 3);
   margin-right: 30px;
   margin-bottom: 30px; */
-  width: 380px;
+  width: 370px;
   margin: 15px;
-
-  border: 1px solid var(--card-border-color);
-  border-radius: 5px;
+  /* outline: 2px solid tomato; */
+  /* border: 1px solid var(--card-border-color); */
+  /* border-radius: 5px; */
 }
 
 /* .card:nth-child(3n) {
@@ -92,15 +94,28 @@ title {
   margin-bottom: 0px;
 } */
 
-.card .title {
-  color: var(--title-text-color);
-}
 .card-hover {
   display: none;
   color: var(--primary-white-color);
   background-color: var(--card-hover-color);
   font-size: 18px;
   line-height: 1.56;
+}
+
+.card .link > img {
+  display: block;
+}
+
+.card-content {
+  width: 370px;
+  overflow: hidden;
+  padding: 20px 20px;
+
+  border-bottom: 1px solid var(--card-border-color);
+  border-left: 1px solid var(--card-border-color);
+  border-right: 1px solid var(--card-border-color);
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 .hiden {
