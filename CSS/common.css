@@ -7,7 +7,7 @@
   --copyright-text-color: rgba(255, 255, 255, 0.4);
   --footer-link-color: rgba(255, 255, 255, 0.6);
   --footer-bg-color: #2f303a;
-  --header-border-color: #ececec;
+  --section-border-color: #ececec;
 }
 
 body {
@@ -59,7 +59,7 @@ body {
 header {
   border-bottom: solid;
   border-bottom-width: 1px;
-  border-bottom-color: var(--header-border-color);
+  border-bottom-color: var(--section-border-color);
 }
 
 .container.header {
