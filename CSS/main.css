@@ -133,7 +133,6 @@
 }
 
 .worker {
-  overflow: hidden;
   width: 278px;
   /* border-top-left-radius: 4px; */
 
@@ -173,8 +172,6 @@
 }
 
 .worker-card-content {
-  width: 278px;
-  overflow: hidden;
   background-color: var(--primary-white-color);
 
   padding-top: 30px;
