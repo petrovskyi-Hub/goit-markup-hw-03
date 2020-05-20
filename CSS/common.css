@@ -164,6 +164,7 @@ header {
 .footer-box {
   display: flex;
   align-items: baseline;
+  justify-content: space-between;
 }
 
 .logo.invers {
@@ -210,8 +211,12 @@ header {
   text-transform: uppercase;
 }
 
+.contacts-box {
+  width: 231px;
+}
+
 .social-box {
-  margin-left: 179px;
+  width: 206px;
 }
 
 .social {
@@ -219,6 +224,11 @@ header {
 }
 
 .subscribe-box {
+  width: 570px;
+}
+
+.subscribe-box button {
+  display: block;
   margin-left: auto;
 }
 
